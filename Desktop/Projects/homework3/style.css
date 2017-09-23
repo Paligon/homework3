@@ -1,0 +1,36 @@
+body {
+	background-color: lightblue;
+}
+
+.container {
+	text-align: center;
+}
+
+.container .box:first-child h1{
+	color: green;
+}
+
+.container .box:nth-child(2) h1{
+	color: silver;
+}
+
+.container .box:nth-child(3)  h1{
+	color: yellow;
+}
+
+.box ul {
+	display: inline-block;	
+}
+
+.container .box ul {
+	font-size: 25px;
+}
+
+.container .box ul li{
+	font-size: 25px;
+}
+
+.container p{
+	font-size: 25px;
+	font-weight: 700;
+}
